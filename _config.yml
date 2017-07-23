@@ -19,12 +19,15 @@ url: ""
 github_username: sparkrnyc
 description: SPARKR is an app for NYC students to form teams and work on projects.
 
-
 # Build settings
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+include: [
+  "_pages"
+]
+permalink: /:title/
 exclude:
   - Gemfile
   - Gemfile.lock

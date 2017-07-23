@@ -13,7 +13,8 @@ The architecture of SPARKR is inspired by several design principles:
 * Test-Driven Development (TDD),
 * Agile,
 * Growth Hacking,
-* Offline First.
+* Offline First,
+* Open Source Software (OSS).
 
 What follows is a brief explanation and how this impacts the technologies that we prefer to use.  
 
@@ -96,3 +97,7 @@ The Offline First approach to application development recognizes that network do
 * Offline First apps enable data to be written locally first, which is faster than writing directly to cloud services. Having data on hand natively means fewer performance disruptions when networks go down.
 * Being offline shouldn't be an error condition. Offline First apps allow your users to work offline or with limited connectivity, by retaining core app functionality at all times.
 * By reducing the number of requests to the cloud service, Offline First apps help your app to be more efficient with battery resources and bandwidth usage.
+
+## Open Source Software (OSS)
+
+TBD
