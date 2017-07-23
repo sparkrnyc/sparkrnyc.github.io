@@ -7,17 +7,15 @@ SPARKR is designed and developed by students under the guidance of professionals
 
 The architecture of SPARKR is inspired by several design principles:
 * Client-Backend,
-* Object-Oriented (OO),
+* Object-Oriented Programming (OOP),
 * Model-View-Controller (MVC),
-* Microservices with REST API,
+* Microservices,
 * Test-Driven Development (TDD),
 * Agile,
-* Growth Hacking.
+* Growth Hacking,
+* Offline First.
 
 What follows is a brief explanation and how this impacts the technologies that we prefer to use.  
-
-## MVC
-MVC is an acronym for Model-View-Controller. The main idea behind MVC is that you create
 
 ## Client-Backend
 The highest level design principle of an application is to think of your system as a Client with a User Interface (UI), also called the Front-end, and a Backend with the heavy lifting of applications running specific calculations.
@@ -34,29 +32,67 @@ With the increased popularity of Mobile as a Client device and the exponential g
 
 ### Client
 
-The client itself can be further broken up in components. Again, the general rule is to design as modular as possible, creating loosely-coupled modules with as little as possible dependencies. 
+The client itself can be broken up in components. The general guideline is to design a system as modular as possible, with loosely-coupled modules and as little as possible dependencies between the different modules.  
 
 #### Front-end Components
 
-* Create the View and static front-end in HTML and CSS.
-* Create the front-end Controller in Angular2. The alternative for Angular2 could be React.
+* Create views or web pages as static HTML and CSS.
+* Angular is a front-end component that functions as a Controller to include front-end logic related to each page or view in the UI. Angular also adds so-called [data-binding](https://en.wikipedia.org/wiki/Data_binding), so that you don't need to program JavaScript code in the front-end to create HTML tags for each of the data elements in JSON. An alternative for Angular2 is React.
 * Use TypeScript to create custom components.
-* Front-end tools: JQuery,
+* Front-end tools: JQuery, Bootstrap.
 
 ### Backend
 
+The backend or server itself can also be broken up into different types of servers. Separate functionality should be running on its own server. Examples of types of servers are:
 
-## Object-Oriented (OO),
+* Proxy server,
+* Web server,
+* Admin server,
+* CDN server,
+* File server,
+* Application server,
+* Image server,
+* Object Storage server,
+* Database server,
+* Business Intelligence server,
+* Matching server, etc.
 
+## Object-Oriented Programming (OOP),
 
-## Model-View-Controller (MVC),
+In [Object-Oriented Programming (OOP)](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) or [Object-Oriented design](https://en.wikipedia.org/wiki/Object-oriented_design) is a software design method where the system is represented by interacting objects. Objects or classes consist of properties or attributes to store state and methods or actions to interact.
 
+## Model-View-Controller (MVC)
 
-## Microservices with REST API,
+MVC is an acronym for Model-View-Controller. The main idea behind MVC is a type of [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) where you separate the Model, View and Controller in an application. In MVC, Model, View and Controller work loosely coupled and work independently, without relying on each other. The opposite of [loose coupling](https://en.wikipedia.org/wiki/Loose_coupling) is tight coupling, where the different components of a system heavily depend on each other.
 
+* The Model manages the data, logic and rules of the application, and stores the state of the model.
+* The View is the representation layer, or the UI or front-end of the application.
+* The Controller accepts input and processes output, and converts commands for the Model or View.
+
+## Microservices
+
+TBD
 
 ## Test-Driven Development (TDD)
+
+TBD
 
 * e2e: Protractor
 * Test runner: Karma
 * Unit Tests: Jasmine
+
+## Agile
+
+TBD
+
+## Growth Hacking
+
+TBD
+
+## Offline First
+
+The Offline First approach to application development recognizes that network downtime is a fact of life. When you develop an Offline First application, you write your app as if it has no internet connection. Once your app works offline, add whatever network functionality you need for your app to do more when it’s online.
+
+* Offline First apps enable data to be written locally first, which is faster than writing directly to cloud services. Having data on hand natively means fewer performance disruptions when networks go down.
+* Being offline shouldn't be an error condition. Offline First apps allow your users to work offline or with limited connectivity, by retaining core app functionality at all times.
+* By reducing the number of requests to the cloud service, Offline First apps help your app to be more efficient with battery resources and bandwidth usage.
