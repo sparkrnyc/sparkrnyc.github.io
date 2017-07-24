@@ -10,8 +10,8 @@ The architecture of SPARKR is inspired by several design principles:
 * Object-Oriented Programming (OOP),
 * Model-View-Controller (MVC),
 * Microservices,
-* Test-Driven Development (TDD),
 * Agile,
+* Test-Driven Development (TDD),
 * Growth Hacking,
 * Offline First,
 * Open Source Software (OSS).
@@ -72,27 +72,45 @@ MVC is an acronym for Model-View-Controller. The main idea behind MVC is a type 
 
 ## Microservices
 
-TBD
+[Microservices](https://en.wikipedia.org/wiki/Microservices) are an improvement of the Services Oriented Architecture (SOA). Both Microservices and SOA aim to create fine-grained services where the protocols are lightweight. SOA was often architected on top of SOAP, WSDL and XML, while the more recent Microservices architecture is built on top of container technology like [Docker](https://en.wikipedia.org/wiki/Docker_(software)) and [Cloud Foundry](https://en.wikipedia.org/wiki/Cloud_Foundry), [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) and [JSON](https://en.wikipedia.org/wiki/JSON).
 
-## Test-Driven Development (TDD)
-
-TBD
-
-* e2e: Protractor
-* Test runner: Karma
-* Unit Tests: Jasmine
 
 ## Agile
 
-TBD
+Agile is a project management method used in software development, to manage and optimize cross-team collaborations and the product delivery process in a structured and iterative approach based on very short development cycles and releases. Sometimes a new version of an application is released every 1 week, every day or even shorter. 4 Weeks is already considered a very long so-called Sprint or development and release cycle. A ‘Sprint’ is the period of time it takes to build and release a new version.
+
+The objectives of Agile can be summarized as:
+
+* Change plans when needed,
+* React fast to changing requirements,
+* Deliver products fast and often,
+* Create a manageable process,
+* Work closely together with all teams,
+* Ensure everyone is involved and motivated,
+* Keep costs low.
+
+## Test-Driven Development (TDD)
+
+[Test-driven development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development) is a method of Agile development with very short development cycles where requirements are first written as specific test-cases, after which you implement the actual functionality to pass the test. This is opposed to coding the requirements first, and writing tests afterward to validate the implementation.
+
+Testing in Agile is not exactly identical to Test-driven development (TDD) but it is recommended as a method and you should familiarize yourself with the different types of testing and frameworks:
+
+* End to end testing (e2e): Protractor
+* Test runner: Karma
+* Unit Tests: Jasmine, Cucumber
+* Angular test configuration: TestBed
+* [GUI testing](https://en.wikipedia.org/wiki/Graphical_user_interface_testing): Selenium, WebDriver
+* [API testing](https://en.wikipedia.org/wiki/API_testing)
+* [Behavior-driven development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development) emerged from test-driven development.
+
 
 ## Growth Hacking
 
-TBD
+[Growth hacking](https://en.wikipedia.org/wiki/Growth_hacking) is a development process of rapid experimentation across channels and teams to identify the most effective and efficient ways to grow a business. Growth hacking includes many of the other design principles. Growth hacking is particularly popular with startups, where the goal is to grow rapidly at an early-stage launch phase. Growth hacking architecture is designed to scale both up and down, fast and cheaply.
 
 ## Offline First
 
-The Offline First approach to application development recognizes that network downtime is a fact of life. When you develop an Offline First application, you write your app as if it has no internet connection. Once your app works offline, add whatever network functionality you need for your app to do more when it’s online.
+The [Offline First](https://www.ibm.com/analytics/us/en/technology/offline-first) approach to application development recognizes that network downtime is a fact of life. When you develop an Offline First application, you write your app as if it has no internet connection. Once your app works offline, add whatever network functionality you need for your app to do more when it’s online.
 
 * Offline First apps enable data to be written locally first, which is faster than writing directly to cloud services. Having data on hand natively means fewer performance disruptions when networks go down.
 * Being offline shouldn't be an error condition. Offline First apps allow your users to work offline or with limited connectivity, by retaining core app functionality at all times.

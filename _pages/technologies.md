@@ -32,6 +32,12 @@ Services:
 * REST API
 * JSON
 
+Services:
+
+* Object storage
+* CDN
+
+
 ## Database
 
 * [Apache CouchDB](http://couchdb.apache.org/) NoSQL
