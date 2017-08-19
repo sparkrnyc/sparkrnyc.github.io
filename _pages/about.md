@@ -71,7 +71,7 @@ A Computer Science major in City University wants to compete at a Hackathon and 
 </table>
 <br>
 
-## Powered By
+# Powered By
 
 <div>SPARKR is being built by students for students.</div>
 <br>
