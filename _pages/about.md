@@ -70,9 +70,12 @@ A Computer Science major in City University wants to compete at a Hackathon and 
 </table>
 <br>
 
-SPARKR is being built by students for students.
+## Powered By
 
-SPARKR co-founding colleges:
+<div>SPARKR is being built by students for students.</div>
+<br>
+<div>SPARKR co-founding colleges:</div>
+
 <img src="/imgs/cuny_logo.png">
 <img src="/imgs/bmcc_logo.png">
 <img src="/imgs/parsons_logo.png">
