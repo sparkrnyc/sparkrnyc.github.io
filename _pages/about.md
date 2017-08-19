@@ -9,6 +9,7 @@ permalink: /about/
   form teams and work on projects together</h2>
 </center>
 <br>
+
 # How does it work?
 
 A Business major student in NYU had a great idea for an app. But how does he build and launch it? He is looking for students with Computer Science and Marketing majors to become co-founders of a startup.
@@ -45,7 +46,7 @@ A Computer Science major in City University wants to compete at a Hackathon and 
 </table>
 <br>
 
-# Why bother?
+# Why
 
 * A project you have created and built is what NYC employers are looking for on your resume.
 * Startup success is directly correlated to team quality and diversity of skills on the team.
