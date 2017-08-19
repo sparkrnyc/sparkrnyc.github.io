@@ -8,10 +8,9 @@ Want to join the SPARKR team? SPARKR is a collaboration by and for students and 
 * Marketing,
 * Developer,
 * Business,
-* Test users,
-* Experienced professionals to mentor and support students.
+* Test users.
 
-SPARKR is managed by you and other students with the help and support of experienced professionals from among other IBM.
+SPARKR is created by you with the help of experienced professionals from among other IBM.
 
 ## How do you join?
 
