@@ -16,9 +16,9 @@ SPARKR is created by you with the help of experienced professionals from among o
 
 If you want to learn and contribute to SPARKR, sign up in 5 simple steps:
 
-1. Sign up for [https://github.com](Github), you need the Github userid,
-2. Sign up for SPARKR [https://goo.gl/tdt8a6](here),
-3. You will receive an invitation to join the [https://sparkrteam.slack.com](SPARKR Slack team),
+1. Sign up for [Github](https://github.com), you need the Github userid,
+2. Sign up for SPARKR [here](https://goo.gl/tdt8a6),
+3. You will receive an invitation to join the [SPARKR Slack team](https://sparkrteam.slack.com),
 4. Accept the SPARKR Slack team invitation,
 5. In the SPARKR Slack team, join the '#newmembers' channel and say hello.
 
