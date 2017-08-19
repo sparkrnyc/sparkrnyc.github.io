@@ -6,3 +6,8 @@ To run Jekyll on localhost execute the following command in the project director
 ```bash
 $ jekyll serve
 ```
+
+To update the local Jekyll installation, run
+```bash
+$ bundle update
+```
