@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Technologies
-permalink: /technologies
+permalink: /technologies/
 ---
 
 ## Mobile
