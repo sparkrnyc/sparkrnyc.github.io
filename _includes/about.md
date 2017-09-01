@@ -1,9 +1,15 @@
 <center>
   <div><img src="/imgs/sparkr_logo.png"></div>
   <h2>SPARKR is an app for NYC students to<br>
-  form teams and work on projects together</h2>
+  form teams and work on projects together.</h2>
 </center>
 <br>
+
+# Join Us
+<hr style="margin-top: -10px; margin-bottom: 15px" />
+<p>
+  To apply to join the SPARKR team, <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1cDWObND-hebe3ddNN03gIhMR6Ew8RjAsoqQjZ7NnRf4nhA/viewform?usp=send_form">submit your application here</a>.
+</p>
 
 # How does it work?
 
